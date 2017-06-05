@@ -4,411 +4,12 @@
     font-style: normal;
     src: local('PT Sans'), url( "http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
 }
-
-body{
-  height: 250vh;
-  width:100vw;
+.body-wrapper {
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
 .navigation {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 115px;
-  background-color: #7DDFE8;
-}
-
-.red-background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 115px;
-  background-color: #F5005B;
-}
-
-.redlogo {
-  width: 100px;
-  height: 100px;
-  background-image: url('../images/filmclub.png');
-  background-size: cover;
-}
-
-.navigation-buttons {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.navigation-buttons a {
-  text-decoration: none;
-  color: white;
-}
-
-.Home {
-  font-family: 'PT Sans';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 10%;
-  background-color: #00A5BF;
-}
-
-.Calendar {
-  font-family: 'PT Sans';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 10%;
-  background-color: #00B7D3;
-}
-
-.Join {
-  font-family: 'PT Sans';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 10%;
-  background-color: #00D5E7;
-}
-
-.header {
-  width: 100%;
-  min-width: 769px;
-  height: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.header-title {
-  margin: 3% 0 2% 2%;
-  font-family: 'PT Sans';
-  font-size: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-}
-
-.header-boxes {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.header-box-1 {
-  width: 30%;
-  font-family: 'PT Sans';
-  margin: 1% 1% 1% 1%;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
-.header-box-1-title {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 38px;
-  color: #FFFFFF;
-  background-color: #0B1942;
-  font-family: 'PT Sans';
-  margin: 1% 0 1% 0;
-  padding-left: 3%;
-  font-size: 25px;
-}
-
-.header-box-1-text {
-  width: 90%;
-}
-
-.main-content {
-  font-family: 'PT Sans';
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  min-width: 769px;
-  width: 100%;
-  height: 100%;
-  background-color: #0B1942;
-}
-
-.main-content-title {
-  margin-top: 3%;
-  margin-left: 3%;
-  font-size: 30px;
-  color: #FFFFFF;
-  align-self: flex-start;
-}
-
-.main-content-boxes {
-  height: 90%;
-  width: 90%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-
-.main-content-box1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row nowrap;
-  margin: 2% 0 2% 0;
-  height: 345px;
-  width: 475px;
-  background-color: #E2E2E2;
-}
-
-.content-box-content-wrapper {
-  margin: 0 15px 0 15px;
-}
-
-.main-content-box1-movie {
-  background-image: url('../images/rashomon-poster.jpg');
-  background-size: cover;
-  margin: 0 15px 0 15px;
-  height: 300px;
-  width: 213px;
-}
-
-.main-content-box1-title h2 {
-  text-decoration: underline;
-  font-weight: normal;
-  color: #00B7D3;
-}
-
-h3 span {
-  font-weight: normal;
-}
-
-li {
-  margin-left: -15px;
-}
-
-.main-content-box2 {
-  line-height: 10px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
-  margin: 2% 0 2% 10px;
-  height: 800px;
-  width: 480px;
-  background-color: #E2E2E2;
-}
-
-.movie1-image {
-  width: 215px;
-  height: 300px;
-  background-size: cover;
-  background-image: url('../images/great-train-poster.jpg');
-}
-
-.movie2-image {
-  width: 215px;
-  height: 300px;
-  background-size: cover;
-  background-image: url('../images/bicycle-thief-poster.jpg');
-}
-
-.movie3-image {
-  width: 215px;
-  height: 300px;
-  background-size: cover;
-  background-image: url('../images/nosferatu-poster.jpg');
-}
-
-.movie4-image {
-  width: 215px;
-  height: 300px;
-  background-size: cover;
-  background-image: url('../images/metropolis-poster.jpg');
-}
-
-.movie-text-header1 {
-  font-weight: normal;
-  color: #00B7D3;
-}
-
-.movie-text-header2 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: bold;
-}
-.movie-text-header2 span{
-  font-size: 17px;
-  font-weight: 300;
-}
-
-.navigation footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer h3 {
-  margin-left: 50%;
-  font-family: 'PT Sans';
-  color: #FFFFFF;
-  display: flex;
-  align-self: center;
-  justify-content:
-}
-
-/*--------For TABLET-----------*/
-
-@media screen and (max-width: 768px){
-
-.body-wrapper {
-  max-width: 100vw;
-}
-
-.red-background {
-    min-width: 80px;
-    height: 80px;
-  }
-
-  .redlogo {
-    width: 69px;
-    height: 69px;
-  }
-
-  .navigation {
-    display: flex;
-    flex-direction: row;
-    width: 95vw;
-    height: 80px;
-  }
-
-  .navigation-buttons {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .Home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    height: 100%;
-  }
-
-  .Calendar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 15%;
-  }
-
-  .Join {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 100%;
-    width: 15%;
-  }
-
-  .navigation-bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 95vw;
-    height: 80px;
-  }
-
-.header {
-  max-width: 100vw;
-}
-
-  .main-content-boxes {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-  }
-
-  .main-content-box1-movie {
-    height: 419px;
-    width: 294px;
-  }
-
-  .main-content-box1 {
-    height: 450px;
-    width: 97%;
-  }
-
-  .navigation {
-    width: 100%;
-    min-width: 545px;
-  }
-
-  .main-content-box2 {
-    align-items: flex-start;
-    height: 315px;
-    width: 97%;
-    margin-left: 0;
-  }
-
-  .movie1 .movie-text-header2 {
-    margin-top: -14px;
-  }
-
-.movie1 {
-  margin-top: 15px;
-  max-width: 140px;
-  line-height: 20px;
-}
-
-.movie2 {
-  margin-top: 15px;
-}
-
-.movie3 {
-  margin-top: 15px;
-}
-
-.movie4 {
-  margin-top: 15px;
-}
-
-  .movie1-image {
-    max-width: 140px;
-    height: 200px;
-  }
-
-  .movie2-image {
-    width: 140px;
-    height: 200px;
-  }
-
-  .movie3-image {
-    width: 140px;
-    height: 200px;
-  }
-
-  .movie4-image {
-    width: 140px;
-    height: 200px;
-  }
-
-}
-
-/*=======Mobile Device=========*/
-
-@media screen and (max-width: 544px){
-
-
-
-  .navigation {
   display: flex;
   flex-direction: row;
   width: 95vw;
@@ -477,6 +78,28 @@ footer h3 {
   background-color: #00D5E7;
 }
 
+.header {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-boxes {
+  background-color:
+}
+
+.header-title {
+  margin: 3% 0 2% 2%;
+  font-family: 'PT Sans';
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
 .navigation-bottom {
   display: flex;
   flex-direction: row;
@@ -494,42 +117,146 @@ footer h3 {
   height: 70px;
   background-color: #7ddfe8;
 }
-  .header-boxes {
+
+/*======TABLET=======*/
+
+@media screen and (min-width: 545px) and (max-width: 768px) {
+
+  .red-background {
+    min-width: 80px;
+    height: 80px;
+  }
+
+  .redlogo {
+    width: 69px;
+    height: 69px;
+  }
+
+  .navigation {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
+    width: 95vw;
+    height: 80px;
+  }
+
+  .navigation-buttons {
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
   }
 
-  .header-box-1 {
-    width: 90%;
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
   }
 
-  .header {
-    max-width: 500px;
+  .Calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
   }
 
-  .main-content {
-    width: 360px;
-    height: 1300px;
+  .Join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 15%;
   }
 
-  .main-content-box1-movie {
-    height: 200px;
-    width: 145px;
+  .navigation-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 80px;
   }
 
-  .main-content-box1 {
-    height: 350px;
-    width: 450px;
+  .copyright {
+    align-self: center;
+    margin-left: 15vw;
   }
 
-  .main-content-box2 {
-    height: 545px;
-    width: 330px;
+}
+
+/*=====DESKTOP========*/
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+  .body-wrapper {
+    height: 100vh;
+    max-width: 80vw;
   }
 
-  .content-box-content-wrapper {
-    height: 75%;
+  .red-background {
+    min-width: 80px;
+    height: 80px;
   }
+
+  .redlogo {
+    width: 69px;
+    height: 69px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 80px;
+  }
+
+  .navigation-buttons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+  }
+
+  .Calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+  }
+
+  .Join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 15%;
+  }
+
+  .navigation-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 80px;
+  }
+
+  .copyright {
+  align-self: center;
+  margin-left: 15vw;
+}
 
 }
