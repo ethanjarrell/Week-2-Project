@@ -191,7 +191,7 @@ a {
   align-items: center;
   width: 90vw;
   min-height: 43vh;
-  max-height: 58vw;
+  max-height: 56vw;
   background-color: #e2e2e2;
 }
 .movie1{
@@ -258,7 +258,7 @@ a {
 
 .main-content-box1-movie img{
   margin: 12px 6px 12px 6px;
-  height: 40vh;
+  height: 53vw;
 }
 
 .content-box-content-wrapper {
@@ -267,9 +267,8 @@ a {
   align-items: flex-start;
   justify-content: center;
   margin: 10vh 1vh 11vh 1vh;
-  font-size: : 2vh;
-  max-height: 63vw;
-  max-width: 38vw;
+  font-size: 2.2vh;
+  height: 57vw;
 }
 .movie1-text h3{
   font-weight: bold;
