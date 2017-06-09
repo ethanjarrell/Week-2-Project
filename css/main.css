@@ -4,6 +4,15 @@
     font-style: normal;
     src: local('PT Sans'), url( "http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
 }
+
+*{
+  -webkit-transition:all 1s ease;
+       -moz-transition:all 1s ease;
+             -o-transition:all 1s ease;
+                   transition:all 1s ease;
+}
+
+
 .body-wrapper {
   max-height: 50vh;
   min-height: 100vh;
@@ -317,6 +326,14 @@ a {
 
 @media screen and (min-width: 545px) and (max-width: 768px) {
 
+  *{
+    -webkit-transition:all 1s ease;
+         -moz-transition:all 1s ease;
+               -o-transition:all 1s ease;
+                     transition:all 1s ease;
+  }
+
+
   .red-background {
     min-width: 80px;
     height: 80px;
@@ -444,6 +461,14 @@ a {
 /*=====DESKTOP========*/
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
+
+  *{
+    -webkit-transition:all 1s ease;
+         -moz-transition:all 1s ease;
+               -o-transition:all 1s ease;
+                     transition:all 1s ease;
+  }
+
 
   .body-wrapper {
     height: 100vh;
